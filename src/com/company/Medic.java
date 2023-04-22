@@ -4,8 +4,8 @@ package com.company;
 public class Medic extends Hero{
     private int healthPoints=10;
     @Override
-    public void applySuperAbility() {
-        System.out.println("Medic применил суперспособность INSTANT CURE");
+    public String applySuperAbility() {
+return "Medic применил суперспособность INSTANT CURE";
 
   }
 public void increaseExperience(){
